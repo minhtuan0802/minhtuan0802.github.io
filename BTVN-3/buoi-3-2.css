@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.para {
+    width: 100%;
+    border: none;
+    margin: 50px;
+    background-color: rgb(247, 243, 247);
+    text-align: center;
+}
+h1{
+    font-size: 40px;
+}
+.p1{
+    padding: 10px;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+.p2{
+    color: lightslategray;
+    padding: 10PX;
+    font-size: 20px;
+    line-height: 30px;
+}
+.para2{
+    margin: 10px 300px;
+    padding: 10PX;
+}
