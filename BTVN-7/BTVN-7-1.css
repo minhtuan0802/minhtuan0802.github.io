@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    height: 100vh;
+    justify-content: space-between;
+}
+.para1{
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    animation-name: animate;
+    animation-duration: 8.5s;
+    animation-iteration-count: infinite;
+    /* animation-direction: reverse; */
+}
+.para2{
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    animation-name: animate;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+.para3{
+    background-color:blue;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    animation-name: animate;
+    animation-duration: 7.5s;
+    animation-iteration-count: infinite;
+}
+.para4{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    animation-name: animate;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+.para5{
+    background-color: cornflowerblue;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    animation-name: animate;
+    animation-duration: 6.5s;
+    animation-iteration-count: infinite;
+}
+.para6{
+    background-color: gray;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    animation-name: animate;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+.para7{
+    background-color: greenyellow;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    animation-name: animate;
+    animation-duration: 5.5s;
+    animation-iteration-count: infinite;
+}
+.para8{
+    background-color: hotpink;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    animation-name: animate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.para9{
+    background-color: teal;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    animation-name: animate;
+    animation-duration: 4.5s;
+    animation-iteration-count: infinite;
+}
+.para10{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    animation-name: animate;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes animate {
+    0% {
+        top: 1000px;
+    }
+    100% {
+        top: 0px;
+    }
+}
