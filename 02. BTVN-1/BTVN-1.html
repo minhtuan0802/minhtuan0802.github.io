@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <script>
+        let part1 = "1. Xin chào các bạn."
+        console.log(part1);
+
+        let xinChao = "Xin chào";
+        let x = "X"
+
+        let part2 = `2. ${xinChao} ${x}`;
+        console.log(part2);
+
+        let part3 = `3. ${xinChao} "${x}"`;
+        console.log(part3);
+
+        function sum(a, b) {
+            console.log(`4. Tổng của ${a} + ${b} = ${a + b}`)
+        }
+        sum(3, 4);
+
+        function binhPhuong(c) {
+            console.log(`5. Bình phương của ${c} = ${c*c}`)
+        }
+        binhPhuong(5);
+
+        let d = 2022;
+        let theKy = Math.ceil(d/100);
+        console.log(`6. Thế kỷ của năm ${d} là thế kỷ ${theKy}`);
+
+        let banKinh = 3;
+        let PI = Math.PI;
+        console.log(`7. Chu vi hình tròn có bán kính = ${banKinh} là ${2*banKinh*PI}`);
+
+        console.log(`8. Diện tích hình tròn có bán kính = ${banKinh} là ${banKinh*PI/4}`);
+        
+        let cm = 1;
+        console.log(`9. ${cm}cm = ${cm/100}m`);
+
+        function phut(e) {
+            let gio = Math.floor(e/60);
+            let phutDu = e%60;
+            return `10. ${e}phút = ${gio}giờ ${phutDu}phút`
+        }
+        let part10 = phut(80);
+        console.log(part10);
+
+        function phuongTrinh(a,b,c) {
+            return `11. Nghiệm của phương trình ${a}x + ${b} = ${c} là x=${(c-b)/a}`
+        }
+        let part11 = phuongTrinh(2,3,5);
+        console.log(part11);
+
+        function nhietDo(doC) {
+            let doF = doC + 273;
+            return `12. ${doC} độ C = ${doF} độ F`
+        }
+        let part12 = nhietDo(0);
+        console.log(part12);
+
+        
+
+
+
+
+
+    </script>
+</body>
+
+</html>
